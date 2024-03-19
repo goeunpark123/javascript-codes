@@ -8,11 +8,11 @@ console.log(arr.length);
 
 // 2. 배열 빌트인 생성자 함수
 const arr2 = Array();
-console.log(arr2);
+console.log(`arr2: ${arr2}`);
 console.log(arr2.length);
 
 const arr3 = Array(3);
-console.log(arr3);
+console.log(`arr3: ${arr3}`);
 console.log(arr3.length);
 
 const arr4 = Array(1, 2, 3);

@@ -23,7 +23,7 @@ foodList2.pop();
 
 const foodList3 = ['10', '11', '12', '13', '14'];
 
-/* unshift: 배열 맨 뒤에 추가 */
+/* unshift: 배열 맨 앞에 추가 */
 console.log(`foodList3.unshift(): ${foodList3.unshift('9')}`);
 console.log(`foodList3.unshift(): ${foodList3.unshift('8')}`);
 
@@ -57,5 +57,6 @@ console.log(`front : ${front}`);
 /* join: 배열을 우리가 원하는 구분자와 함께 결합하여 문자열로 반환 */
 const snackList = ['사탕', '초콜렛', '껌', '마이쮸'];
 
+console.log(`${snackList}`);
 console.log(`snackList.join(): ${snackList.join()}`);
 console.log(`snackList.join('/'): ${snackList.join('/')}`);
